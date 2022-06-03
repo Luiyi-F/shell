@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R drwxr-xr-x . .. /tmp 
+chmod --recursive /tmp/shell/permissions 
