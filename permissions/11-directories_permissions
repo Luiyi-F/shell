@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --recursive /tmp/shell/permissions 
+chmod -R d+x /tmp/shell/permissions 
