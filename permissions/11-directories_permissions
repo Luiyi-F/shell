@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R a+X /tmp/shell/permissions
+chmod -R da+X /tmp/shell/permissions
