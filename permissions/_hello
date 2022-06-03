@@ -1,2 +1,1 @@
-#!/bin/bash
-ln -s hello _hello
+hello
