@@ -1,2 +1,2 @@
 #!/bin/bash
-egrep '\b[A-Z]+\b' /etc/ssh/sshd_config
+egrep -n '\b[A-Z]+\b' /etc/ssh/sshd_config
