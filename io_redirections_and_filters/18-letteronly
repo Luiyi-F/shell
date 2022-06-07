@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -E '\b[[:upper:]]+\b' /etc/ssh/sshd_config
+egrep '\b[A-Z]+\b' /etc/ssh/sshd_config
