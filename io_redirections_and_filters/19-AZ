@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -r 's/[AC]+/_/g'
+tr 'AC' 'ze'
