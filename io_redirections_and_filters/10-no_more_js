@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -f */*/*/.jss
+rm -f */*/*/.js
