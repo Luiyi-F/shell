@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d' ' -f 1 filee
+cut -d' ' -f1 
