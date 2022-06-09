@@ -10,7 +10,8 @@ do
 	case $i in
 		4) echo "bad luck for China";;
 		9) echo "bad luck for Japan";;
-		17) echo "good luck for Italy";;	
+		17) echo "good luck for Italy";;
+		*);;	
 	esac
 	i=$(( i + 1 ))
 done
