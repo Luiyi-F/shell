@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #Display the list
-for f in */
+list=$(ls * | cut -d '-' -f2)
+for di in $list
 do
-	if [ -d "$f" ]; then
-	echo "$f"
-	fi
+	echo "$di"
 done
