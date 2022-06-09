@@ -9,9 +9,9 @@ do
 	i=$(( i + 1 ))
 
 	case $i in
-		4) echo "bad luck for China";;
-		9) echo "bad luck for Japan";;
-		17) echo "good luck for Italy";;
+		5) echo "bad luck for China";;
+		10) echo "bad luck for Japan";;
+		18) echo "good luck for Italy";;
 		*) ;;	
 	esac
 
