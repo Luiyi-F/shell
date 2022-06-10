@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Display apache and new datas
+
+awk '{print $1" "$9}' apache-access.log | sort | uniq -c | sort -nr 
