@@ -7,8 +7,8 @@ exit
 
 trap "echo I hate the kill command;dir" SIGTERM
 trap "echo Y U no love me?!;dir" SIGINT
-
 echo $$ >> /var/run/myscript.pid
-while '[ true ]'; do
+i=0
+while [ $i -eq 0 ]; do
 	echo " To infinity and beyond"
 done
