@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+i=0
+while [ $i -lt 2 ]; do
+	echo "hola"
+done
